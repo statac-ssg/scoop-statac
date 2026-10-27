@@ -1,23 +1,24 @@
 {
-    "version": "0.6.2",
-    "description": "The friendly static site generator",
+    "version": "0.7.0",
+    "description": "A friendlier static site generator for personal websites",
     "homepage": "https://statac.dev",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/statac-ssg/statac/releases/download/v0.6.2/statac-0.6.2-x86_64-pc-windows-msvc.zip",
-            "hash": "60721af2b816e2b3070c01cf27963ee75aa1561c559ff7b18ffdc1b167ec39c2",
-            "extract_dir": "statac-0.6.2-x86_64-pc-windows-msvc"
+            "url": "https://get.statac.dev/v0.7.0/statac-0.7.0-x86_64-pc-windows-msvc.zip",
+            "hash": "6fee71cdd84315186cc8d6da85ced8d90671b65303ed0928c39ebc8323155c5d",
+            "extract_dir": "statac-0.7.0-x86_64-pc-windows-msvc"
         }
     },
     "bin": "statac.exe",
     "checkver": {
-        "github": "https://github.com/statac-ssg/statac"
+        "url": "https://get.statac.dev/latest/SHA256SUMS",
+        "regex": "statac-([\\d.]+)-x86_64-pc-windows-msvc\\.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/statac-ssg/statac/releases/download/v$version/statac-$version-x86_64-pc-windows-msvc.zip",
+                "url": "https://get.statac.dev/v$version/statac-$version-x86_64-pc-windows-msvc.zip",
                 "extract_dir": "statac-$version-x86_64-pc-windows-msvc"
             }
         },
