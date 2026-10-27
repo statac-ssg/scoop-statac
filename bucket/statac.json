@@ -1,6 +1,6 @@
 {
     "version": "0.7.0",
-    "description": "A friendlier static site generator for personal websites",
+    "description": "A friendlier static site generator.",
     "homepage": "https://statac.dev",
     "license": "MIT|Apache-2.0",
     "architecture": {

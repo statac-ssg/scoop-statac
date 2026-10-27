@@ -1,7 +1,7 @@
 # Scoop bucket for Statac
 
-Statac is a friendlier static site generator for personal websites. This
-bucket installs its ready-built binary on Windows (x86-64).
+Statac is a friendlier static site generator. This bucket installs its
+ready-built binary on Windows (x86-64).
 
 ```powershell
 scoop bucket add statac https://git.statac.dev/statac/scoop-statac
