@@ -1,13 +1,13 @@
 {
-    "version": "0.7.0",
+    "version": "0.7.1",
     "description": "A friendlier static site generator.",
     "homepage": "https://statac.dev",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://get.statac.dev/v0.7.0/statac-0.7.0-x86_64-pc-windows-msvc.zip",
-            "hash": "6fee71cdd84315186cc8d6da85ced8d90671b65303ed0928c39ebc8323155c5d",
-            "extract_dir": "statac-0.7.0-x86_64-pc-windows-msvc"
+            "url": "https://get.statac.dev/v0.7.1/statac-0.7.1-x86_64-pc-windows-msvc.zip",
+            "hash": "f7822579e669509d6be93d30f2d71e651d6e945502e390a6aa5643d81397cd18",
+            "extract_dir": "statac-0.7.1-x86_64-pc-windows-msvc"
         }
     },
     "bin": "statac.exe",
